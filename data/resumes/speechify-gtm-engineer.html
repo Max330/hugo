@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkin Kothari - Resume</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    @page {
+      size: A4;
+      margin: 0.75in;
+    }
+
+    body {
+      font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #1a1a1a;
+      max-width: 7in;
+      margin: 0 auto;
+      padding: 0.75in;
+    }
+
+    @media print {
+      body { padding: 0; max-width: none; }
+      .page-break { page-break-before: always; }
+      a { color: #1a1a1a; text-decoration: none; }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 14pt;
+      padding-bottom: 8pt;
+      border-bottom: 1.5pt solid #2a2a2a;
+    }
+
+    .header h1 {
+      font-size: 16pt;
+      font-weight: 700;
+      letter-spacing: 0.5pt;
+      margin-bottom: 4pt;
+    }
+
+    .header .contact {
+      font-size: 10pt;
+      color: #444;
+    }
+
+    h2 {
+      font-size: 11.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5pt;
+      border-bottom: 0.75pt solid #ccc;
+      padding-bottom: 3pt;
+      margin-top: 13pt;
+      margin-bottom: 7pt;
+    }
+
+    .entry {
+      margin-bottom: 9pt;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1pt;
+    }
+
+    .entry-header .title {
+      font-weight: 700;
+      font-size: 11pt;
+    }
+
+    .entry-header .dates {
+      font-size: 10pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .entry .company {
+      font-size: 10.5pt;
+      color: #333;
+      margin-bottom: 4pt;
+    }
+
+    .entry ul {
+      padding-left: 16pt;
+      margin: 0;
+    }
+
+    .entry li {
+      font-size: 10.5pt;
+      margin-bottom: 2.5pt;
+      line-height: 1.4;
+    }
+
+    .skills-block {
+      font-size: 10.5pt;
+      line-height: 1.6;
+    }
+
+    .skills-block .category {
+      margin-bottom: 3pt;
+    }
+
+    .skills-block .category-name {
+      font-weight: 700;
+    }
+
+    .edu-entry {
+      margin-bottom: 4pt;
+      font-size: 10.5pt;
+    }
+
+    .edu-entry .degree {
+      font-weight: 600;
+    }
+
+    .summary {
+      font-size: 10.5pt;
+      margin-bottom: 4pt;
+      line-height: 1.55;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Perkin Kothari</h1>
+    <div class="contact">
+      kothariperkin@gmail.com &nbsp;|&nbsp; +91-9660037123 &nbsp;|&nbsp;
+      www.linkedin.com/in/perkin-kothari &nbsp;|&nbsp; Jaipur, India (Remote)
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <h2>Summary</h2>
+  <div class="summary">
+    Go-to-Market Engineer with 6+ years building outbound systems, enrichment pipelines, and AI-powered GTM infrastructure for B2B SaaS organizations. Expert with the modern GTM stack: Clay, HubSpot, Zapier, Make, n8n, Bombora, Factors.ai, and OpenAI. Shipped scoring models, sequencing workflows, and multi-source enrichment pipelines that measurably moved pipeline — 90% reduction in lead response time, 28% MQL&#8594;SQL conversion lift, 3x increase in outbound-driven conversions. Deploys AI agents for prospect research and personalized outreach at scale. Operates independently in fully remote, async environments.
+  </div>
+
+  <!-- Experience -->
+  <h2>Experience</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="title">GTM Operations Lead</span>
+      <span class="dates">Jul 2022 – Present</span>
+    </div>
+    <div class="company">PeopleStrong Technologies Pvt. Ltd. | B2B SaaS, HRTech | Remote</div>
+    <ul>
+      <li>Built and maintained outbound enrichment pipelines integrating Bombora (intent), ZoomInfo (firmographic), Factors.ai (behavioral signals), and Clay (AI enrichment + personalization) — increasing high-intent lead identification accuracy by ~80% and feeding scored prospects directly into sequencing workflows.</li>
+      <li>Deployed AI agents using OpenAI and Clay to automate prospect research, generate personalized outreach snippets at scale, and classify deal risk from CRM activity patterns — improving forecast accuracy by 25% and reducing stale pipeline by 22%.</li>
+      <li>Built lead scoring models combining behavioral signals, intent data, and CRM activity; improved MQL&#8594;SQL conversion by 28% and drove a 50% increase in opportunity creation rate through segmentation-driven nurture programs.</li>
+      <li>Developed integrations across the full GTM technology stack via REST APIs, webhooks, Make, and n8n — connecting HubSpot to enrichment, intent, and engagement platforms, reducing manual GTM interventions by 35%.</li>
+      <li>Architected end-to-end HubSpot workflow infrastructure: lifecycle governance, automated routing and SLA enforcement, and pipeline inspection frameworks — consolidating 120+ workflows and cutting operational overhead by 30%.</li>
+      <li>Built funnel KPI dashboards tracking top-of-funnel metrics (pipeline creation, meeting conversion, lead response time, opportunity creation); reduced average lead response time by 90% via automated routing.</li>
+      <li>Created structured technical documentation for all automation logic, integration architecture, and system dependencies — ensuring auditability and enabling rapid onboarding across GTM functions.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="title">Marketing Operations Manager</span>
+      <span class="dates">Apr 2020 – Jun 2022</span>
+    </div>
+    <div class="company">AdPushup Inc. | B2B SaaS, AdTech | Remote</div>
+    <ul>
+      <li>Built outbound sequencing infrastructure using Smartlead (multi-channel: email, WhatsApp, SMS, chatbots) increasing qualified demo bookings by 41% and overall conversions 3x, while maintaining &lt;1% unsubscribe rate through data hygiene and deliverability governance.</li>
+      <li>Implemented predictive lead scoring and intelligent routing frameworks from scratch, accelerating pipeline velocity by 2x and increasing campaign-to-opportunity conversion 2.3x through lifecycle optimization.</li>
+      <li>Designed multi-touch attribution architecture tracking pipeline influenced by channel, sequence, and campaign; built revenue forecasting calculator integrating pipeline signals — contributing ~$680K MRR within one quarter.</li>
+      <li>Improved email deliverability 4x via segmentation governance, suppression list management, and domain warmup protocols; increased overall marketing-driven conversion rate by 32%.</li>
+    </ul>
+  </div>
+
+  <!-- Skills -->
+  <h2>Skills</h2>
+  <div class="skills-block">
+    <div class="category">
+      <span class="category-name">GTM Stack:</span>
+      Clay, HubSpot (Advanced), Zapier, Make (Integromat), n8n, Smartlead, Customer.io, GTMBuddy, Gong
+    </div>
+    <div class="category">
+      <span class="category-name">Enrichment &amp; Intent:</span>
+      Factors.ai, Bombora, ZoomInfo, Segment, Data Enrichment Pipelines, Multi-source Signal Integration
+    </div>
+    <div class="category">
+      <span class="category-name">AI &amp; Automation:</span>
+      OpenAI / ChatGPT (API), AI Agent Deployment, Prompt Engineering, AI-Assisted Scoring &amp; Classification, Agentic Outreach Workflows
+    </div>
+    <div class="category">
+      <span class="category-name">Systems &amp; Integration:</span>
+      REST API Integrations, Webhook Automation, HubSpot APIs, Lead Scoring Models, Sequencing Workflows, Outbound Pipeline Systems
+    </div>
+    <div class="category">
+      <span class="category-name">Measurement:</span>
+      Top-of-Funnel Metrics (Meetings Booked, Reply Rates, Pipeline Creation, CPO), Multi-touch Attribution, Funnel KPI Dashboards, Revenue Forecasting
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <h2>Certifications</h2>
+  <div class="edu-entry"><span class="degree">HubSpot Marketing Software Certification</span> | HubSpot Academy | Active</div>
+  <div class="edu-entry"><span class="degree">Essentials of Marketing Operations</span> | LXA | Active</div>
+  <div class="edu-entry"><span class="degree">Fundamentals of Digital Marketing</span> | Google | Active</div>
+
+  <!-- Education -->
+  <h2>Education</h2>
+  <div class="edu-entry"><span class="degree">PGC in Digital Marketing</span> | MICA | UpGrad, 2020</div>
+  <div class="edu-entry"><span class="degree">MBA (Marketing)</span> | TAPMI School of Business, Jaipur, 2020</div>
+  <div class="edu-entry"><span class="degree">B.A. Hons. Economics</span> | Manipal University, Jaipur, 2018</div>
+
+</body>
+</html>
