@@ -1,0 +1,162 @@
+# === Identity ===
+name: "Perkin Kothari"
+email: "kothariperkin@gmail.com"
+phone: "+91-9660037123"
+linkedin_url: "https://linkedin.com/in/perkin-kothari"  # Update with exact URL
+portfolio_url: ""
+location: "Jaipur, India"
+work_preference: "remote"
+visa_status: "India (open to remote global roles)"
+
+# === Current State ===
+current:
+  title: "GTM Operations Lead"
+  company: "PeopleStrong Technologies Pvt. Ltd."
+  years_experience: 6
+
+# === Target ===
+target:
+  primary_role: "GTM Engineer"
+  secondary_roles:
+    - "RevOps Architect"
+    - "Marketing Operations Lead"
+    - "Revenue Operations Manager"
+    - "Marketing Operations Manager"
+  industries:
+    - "B2B SaaS"
+    - "HRTech"
+    - "AdTech"
+    - "MarTech"
+  seniority: "lead"
+  exclude_keywords:
+    - "Junior"
+    - "Intern"
+    - "Entry Level"
+
+# === Skills ===
+skills:
+  - "HubSpot (Advanced Workflow Architecture)"
+  - "GTM Systems Architecture"
+  - "Revenue Operations (RevOps)"
+  - "Marketing Operations"
+  - "Lead Lifecycle Management"
+  - "AI-driven Automation"
+  - "Pipeline Governance & Forecasting"
+  - "CRM Workflow Automation"
+  - "Lead Scoring & Routing"
+  - "Multi-touch Attribution"
+  - "API Integrations"
+  - "Zapier / Make / n8n"
+  - "Factors.ai / Intent Data"
+  - "Clay / Data Enrichment"
+  - "HubSpot Reporting & Dashboards"
+  - "Gong"
+  - "Customer.io"
+  - "ZoomInfo / Bombora"
+  - "Segment"
+  - "OpenAI / ChatGPT"
+
+# === Credentials ===
+credentials:
+  - type: "HubSpot Marketing Software Certification"
+    status: "Active"
+    state: ""
+    number: ""
+    expiry: ""
+  - type: "LXA — Essentials of Marketing Operations"
+    status: "Active"
+    state: ""
+    number: ""
+    expiry: ""
+  - type: "Edge Academy — Marketing Foundations"
+    status: "Active"
+    state: ""
+    number: ""
+    expiry: ""
+  - type: "Google — Fundamentals of Digital Marketing"
+    status: "Active"
+    state: ""
+    number: ""
+    expiry: ""
+
+# === Narrative ===
+narrative:
+  headline: "GTM Engineer who turns revenue strategy into hardened automation systems that actually run without babysitting"
+  story: "5+ years in B2B SaaS building automation-first GTM operating systems at scale. Started in MarOps at AdPushup (AdTech), then leveled up at PeopleStrong (HRTech) to own the full GTM stack — HubSpot architecture, AI deal scoring, lifecycle governance, and pipeline velocity frameworks. Known for eliminating manual ops overhead and making revenue data trustworthy."
+  superpowers: "HubSpot workflow architecture at scale, AI-assisted GTM signal layers, pipeline governance that sticks, and translating vague revenue strategy into precise system logic"
+
+# === Work History ===
+work_history:
+  - title: "GTM Operations Lead"
+    company: "PeopleStrong Technologies Pvt. Ltd."
+    industry: "B2B SaaS – HRTech"
+    dates: "July 2022 – Present"
+    highlights:
+      - "Built end-to-end HubSpot workflow architecture covering lead routing, lifecycle progression, deal enforcement, alerts, and inspection frameworks"
+      - "Consolidated 120+ workflows into structured automation architecture reducing operational overhead by 30%"
+      - "Designed AI-enabled deal health and risk scoring models improving forecast accuracy by 25%"
+      - "Automated routing and notification systems, improving lead response efficiency by 90%"
+      - "Rebuilt lifecycle framework (Lead → MQL → SQL → Opportunity) increasing funnel visibility by 3x"
+      - "Improved MQL→SQL conversion by 28% through behavioral scoring + intent prioritization"
+      - "Increased high-intent lead identification accuracy by ~80% via Factors.ai & enrichment integrations"
+      - "Automated pipeline inspection workflows reducing stale opportunities by 22%"
+      - "Orchestrated workflows across HubSpot and GTM tools using APIs, Zapier & Make reducing manual interventions by 35%"
+      - "Improved opportunity creation rate by 50% through segmentation-driven nurture programs"
+      - "Built inspection-ready pipeline hygiene dashboards improving reporting reliability by 4x"
+      - "Implemented governance & SLA enforcement improving Sales lead acceptance rate by 22%"
+
+  - title: "Marketing Operations Manager"
+    company: "AdPushup Inc."
+    industry: "B2B SaaS – AdTech"
+    dates: "April 2020 – June 2022"
+    highlights:
+      - "Designed full-funnel customer journey tracking with multi-touch attribution across marketing and sales systems"
+      - "Implemented predictive lead scoring and routing frameworks accelerating pipeline velocity by 2x"
+      - "Built omni-channel automation (email, WhatsApp, SMS, chatbots) increasing conversions 3x with <1% unsubscribe rate"
+      - "Improved email deliverability performance by 4x through data hygiene and segmentation governance"
+      - "Built revenue forecasting calculator generating ~$680K MRR within one quarter"
+      - "Increased overall marketing-driven conversion rate by 32%"
+      - "Increased campaign-to-opportunity conversion 2.3x through lifecycle optimization"
+      - "Launched omni-channel automation increasing qualified demo bookings by 41%"
+
+# === Education ===
+education:
+  - degree: "PGC in Digital Marketing"
+    school: "MICA | UpGrad"
+    year: 2020
+  - degree: "MBA (Marketing)"
+    school: "TAPMI School of Business, Jaipur"
+    year: 2020
+  - degree: "B.A Hons. Economics"
+    school: "Manipal University, Jaipur"
+    year: 2018
+
+# === Compensation ===
+compensation:
+  target: ""   # Update with your target — e.g. "$120,000 USD" or "₹30L INR"
+  minimum: ""  # Update with your floor
+  currency: ""
+
+# === Proof Points ===
+proof_points:
+  - "Improved forecast accuracy by 25% via AI-enabled deal health scoring at PeopleStrong"
+  - "Reduced lead response time by 90% through automated routing architecture"
+  - "Improved MQL→SQL conversion by 28% through behavioral scoring and intent prioritization"
+  - "Consolidated 120+ HubSpot workflows, cutting operational overhead by 30%"
+  - "Built revenue forecasting calculator generating ~$680K MRR in one quarter at AdPushup"
+  - "Accelerated pipeline velocity 2x through predictive lead scoring at AdPushup"
+  - "Increased conversions 3x with omni-channel automation while keeping unsubscribe rate <1%"
+  - "Improved reporting reliability 4x with funnel KPI dashboards"
+  - "Wizard Certificate of Excellence, PeopleStrong (2024)"
+  - "Over & Above Achiever Award — exceeded quarterly targets by 133%+, PeopleStrong (2023)"
+
+# === Portfolio / Projects ===
+portfolio: []
+
+# === Persona Modifiers ===
+persona:
+  recent_graduate: false
+  career_changer: false
+  career_returner: false
+  international: true
+  gap_explanation: ""
