@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perkin Kothari - Resume</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    @page {
+      size: A4;
+      margin: 0.75in;
+    }
+
+    body {
+      font-family: -apple-system, "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #1a1a1a;
+      max-width: 7in;
+      margin: 0 auto;
+      padding: 0.75in;
+    }
+
+    @media print {
+      body { padding: 0; max-width: none; }
+      .page-break { page-break-before: always; }
+      a { color: #1a1a1a; text-decoration: none; }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 14pt;
+      padding-bottom: 8pt;
+      border-bottom: 1.5pt solid #2a2a2a;
+    }
+
+    .header h1 {
+      font-size: 16pt;
+      font-weight: 700;
+      letter-spacing: 0.5pt;
+      margin-bottom: 4pt;
+    }
+
+    .header .contact {
+      font-size: 10pt;
+      color: #444;
+    }
+
+    .header .contact a {
+      color: #444;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-size: 11.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5pt;
+      border-bottom: 0.75pt solid #ccc;
+      padding-bottom: 3pt;
+      margin-top: 13pt;
+      margin-bottom: 7pt;
+    }
+
+    .entry {
+      margin-bottom: 9pt;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1pt;
+    }
+
+    .entry-header .title {
+      font-weight: 700;
+      font-size: 11pt;
+    }
+
+    .entry-header .dates {
+      font-size: 10pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .entry .company {
+      font-size: 10.5pt;
+      color: #333;
+      margin-bottom: 4pt;
+    }
+
+    .entry ul {
+      padding-left: 16pt;
+      margin: 0;
+    }
+
+    .entry li {
+      font-size: 10.5pt;
+      margin-bottom: 2.5pt;
+      line-height: 1.4;
+    }
+
+    .skills-block {
+      font-size: 10.5pt;
+      line-height: 1.6;
+    }
+
+    .skills-block .category {
+      margin-bottom: 3pt;
+    }
+
+    .skills-block .category-name {
+      font-weight: 700;
+    }
+
+    .edu-entry {
+      margin-bottom: 4pt;
+      font-size: 10.5pt;
+    }
+
+    .edu-entry .degree {
+      font-weight: 600;
+    }
+
+    .summary {
+      font-size: 10.5pt;
+      margin-bottom: 4pt;
+      line-height: 1.55;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Perkin Kothari</h1>
+    <div class="contact">
+      kothariperkin@gmail.com &nbsp;|&nbsp; +91-9660037123 &nbsp;|&nbsp;
+      www.linkedin.com/in/perkin-kothari &nbsp;|&nbsp; Jaipur, India (Remote)
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <h2>Summary</h2>
+  <div class="summary">
+    HubSpot Solutions Architect and GTM Engineer with 6+ years designing and implementing enterprise-scale HubSpot systems for B2B SaaS organizations. Expert in translating complex business requirements into scalable technical architectures — lifecycle governance, lead routing, AI-assisted deal scoring, and multi-platform API integrations. Proven track record: 90% reduction in lead response time, 28% MQL→SQL conversion improvement, 25% forecast accuracy lift. Brings rare GTM-native depth to solutions architecture, building systems that are not just technically sound but revenue-aligned and inspection-ready.
+  </div>
+
+  <!-- Experience -->
+  <h2>Experience</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="title">GTM Operations Lead — Solutions Architect, HubSpot</span>
+      <span class="dates">Jul 2022 – Present</span>
+    </div>
+    <div class="company">PeopleStrong Technologies Pvt. Ltd. | B2B SaaS, HRTech | Remote</div>
+    <ul>
+      <li>Architected end-to-end HubSpot solutions across Marketing, Sales, and Service Hubs — designing scalable technical specifications for lifecycle governance, deal enforcement, SLA compliance, and pipeline inspection frameworks.</li>
+      <li>Translated revenue leadership requirements into hardened system logic; consolidated 120+ workflows into a structured automation architecture, reducing operational overhead by 30% and improving Sales lead acceptance rate by 22%.</li>
+      <li>Built AI-assisted deal health scoring model using large language models and prompt-driven signal classification (OpenAI, CRM activity, engagement data), improving forecast accuracy by 25% and reducing stale opportunities by 22%.</li>
+      <li>Designed and implemented enterprise system integrations connecting HubSpot with enrichment, intent, and engagement platforms (Factors.ai, Bombora, ZoomInfo, Customer.io) via REST APIs, Make, and n8n — increasing high-intent lead identification accuracy by ~80%.</li>
+      <li>Rebuilt lifecycle framework (Lead → MQL → SQL → Opportunity) improving funnel visibility by 3x and MQL→SQL conversion by 28%; automated routing and notification systems cutting lead response time by 90%.</li>
+      <li>Developed comprehensive technical documentation for all workflow logic, integration architecture, and system dependencies — enabling audit-readiness, scalability, and team onboarding across GTM functions.</li>
+      <li>Orchestrated multi-platform automation workflows via APIs, Zapier, Make, and n8n, reducing manual GTM interventions by 35% and improving opportunity creation rate by 50%.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <span class="title">Marketing Operations Manager</span>
+      <span class="dates">Apr 2020 – Jun 2022</span>
+    </div>
+    <div class="company">AdPushup Inc. | B2B SaaS, AdTech | Remote</div>
+    <ul>
+      <li>Led end-to-end implementation of marketing automation and attribution architecture; designed full-funnel customer journey tracking with multi-touch attribution across HubSpot and integrated marketing platforms.</li>
+      <li>Developed integration strategy connecting HubSpot with ad platforms, email, and engagement tools; built omni-channel automation (email, WhatsApp, SMS, chatbots) increasing qualified demo bookings by 41% and overall conversions by 3x.</li>
+      <li>Implemented predictive lead scoring and intelligent routing frameworks, accelerating pipeline velocity by 2x; improved email deliverability 4x through data hygiene and segmentation governance.</li>
+      <li>Built revenue forecasting calculator integrating pipeline and engagement signals — contributing ~$680K MRR within one quarter; increased campaign-to-opportunity conversion 2.3x through lifecycle optimization.</li>
+      <li>Increased overall marketing-driven conversion rate by 32% through segmentation-driven nurture programs and performance optimization of existing implementations.</li>
+    </ul>
+  </div>
+
+  <!-- Skills -->
+  <h2>Skills</h2>
+  <div class="skills-block">
+    <div class="category">
+      <span class="category-name">HubSpot &amp; CRM:</span>
+      HubSpot Solutions Architecture, Marketing Hub, Sales Hub, Service Hub, HubSpot APIs, Custom Integrations, Workflow Architecture, Lifecycle Governance, Pipeline Management, Gong
+    </div>
+    <div class="category">
+      <span class="category-name">AI &amp; Automation:</span>
+      LLM Integration (OpenAI, ChatGPT), Prompt Engineering, AI-Assisted Scoring &amp; Classification, Clay (AI Enrichment), n8n, Make (Integromat), Zapier, REST API Integrations
+    </div>
+    <div class="category">
+      <span class="category-name">Data &amp; Signals:</span>
+      Factors.ai, Segment, Bombora (Intent Data), ZoomInfo, Data Enrichment Pipelines, Multi-touch Attribution, Funnel KPI Dashboards, Google Sheets, Excel
+    </div>
+    <div class="category">
+      <span class="category-name">GTM &amp; Marketing:</span>
+      Revenue Operations (RevOps), GTM Systems Architecture, Lead Scoring &amp; Routing, Marketing Automation, Customer.io, Smartlead, GTMBuddy, Account-Based Marketing (ABM)
+    </div>
+    <div class="category">
+      <span class="category-name">Other:</span>
+      Technical Specifications &amp; Documentation, Project Management, Stakeholder Management, Cross-functional Leadership, Remote-first Collaboration
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <h2>Certifications</h2>
+  <div class="edu-entry"><span class="degree">HubSpot Marketing Software Certification</span> | HubSpot Academy | Active</div>
+  <div class="edu-entry"><span class="degree">Essentials of Marketing Operations</span> | LXA | Active</div>
+  <div class="edu-entry"><span class="degree">Marketing Foundations</span> | Edge Academy | Active</div>
+  <div class="edu-entry"><span class="degree">Fundamentals of Digital Marketing</span> | Google | Active</div>
+
+  <!-- Education -->
+  <h2>Education</h2>
+  <div class="edu-entry"><span class="degree">PGC in Digital Marketing</span> | MICA | UpGrad, 2020</div>
+  <div class="edu-entry"><span class="degree">MBA (Marketing)</span> | TAPMI School of Business, Jaipur, 2020</div>
+  <div class="edu-entry"><span class="degree">B.A. Hons. Economics</span> | Manipal University, Jaipur, 2018</div>
+
+</body>
+</html>
